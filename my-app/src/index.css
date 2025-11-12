@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* ✅ По умолчанию ТЕМНАЯ тема */
+body {
+  background-color: #ffffff;
+  color: #000000;
+} 
+
+.dark  body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+ header, section, body, footer, .ReviewForm, .orderform, .ordershortlist {
+  background-color: #ffffff;
+  color: #000000;
+}
+.dark header, .dark section, .dark body, .dark footer,.dark .orderform,.dark .ordershortlist  {
+  background-color: #000000;
+  color: #ffffff;
+}  
+.banner-section {
+  background-color: #EFEFEF;
+  color: black;
+}
+
+/* ✅ Тёмная тема */
+.dark .banner-section {
+  background-color: #ffffff12;
+  color: white;
+}
+.search, .search-ul  {
+  background-color: #E6528A;
+  color: rgb(255, 255, 255);
+}
+
+/* ✅ Тёмная тема */
+.dark .search,.dark .search-ul,.dark .ReviewForm {
+  background-color: #000000;
+  color: white;
+}
+.ReviewForm-img {
+  filter: invert(1);
+}
+
+.dark .ReviewForm-img {
+  filter: none;
+}
+.ProductPageLink, .AuthForm, .RegisterForm{
+  color: rgb(0, 0, 0);
+}
+.dark .ProductPageLink, .dark .AuthForm, .dark .RegisterForm{
+  color: rgb(255, 255, 255);
+}
+ .AuthForm, .RegisterForm{
+  border-color: rgb(0, 0, 0);
+}
+.dark .AuthForm, .dark .RegisterForm{
+  border-color: rgb(255, 255, 255);
+}
+.ContactsA{
+  color: rgb(0, 0, 0);
+}
+.dark .contactsa{
+  color: rgb(255, 255, 255);
+} 
+.footer-logo-dark {
+  display: none;
+}
+ .footer-logo-light {
+  display: block;
+}
+
+.dark  .footer-logo-dark {
+  display: block;
+}
+
+.dark  .footer-logo-light {
+  display: none;
+}
